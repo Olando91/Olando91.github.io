@@ -15,10 +15,39 @@
 <body>
   
   <!-- navbar -->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container-xxl border-bottom border-3">
+      <a href="#intro" class="navbar-brand">
+        <span class="fw-bold text-secondary">
+          Place holder
+        </span>
+      </a>
+
+      <!-- mobil navigation -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#privat">Privat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#uddannelse">Uddannelse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#arbejde">Arbejde</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <!-- Intro -->
   <section id="intro">
-    <div class="container-lg shadow border border-3 border-success">
+    <div class="container-lg shadow-lg border-start border-3 border-success">
       <div class="row justify-content-center align-items-center">
         <div class="col-md-5 text-center text-md-start">
           <h1>
@@ -28,13 +57,29 @@
           <p class="lead my-4 text-muted">Tag et kig nedenfor og se hvad jeg kan bidrage med.</p>
         </div>
           <div class="col-md-5 text-center d-none d-md-block">
-            <img class="img-fluid border border-top-0 border-bottom-0 border-success" src="/Ressourcer/Billede.png" alt="Billede">
+            <img class="img-fluid" src="/Ressourcer/Billede.png" alt="Billede">
           </div>
       </div>
     </div>
   </section>
 
   <!-- Cards -->
+  <!-- PRIVAT -->
+  <section id="privat" class="mt-5">
+    <div class="containt-lg">
+      <div class="text-center">
+        <h2>Privat</h2>
+        <p class="lead text-muted">Læs mere om hvem jeg er.</p>
+      </div>
+      <div class="row my-5 align-items-center justify-content-center">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card">
+            <div class="card-body text-center py-4">Test</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
